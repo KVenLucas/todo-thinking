@@ -1,0 +1,32 @@
+.--badge--wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 2;
+  flex-wrap: wrap;
+}
+
+.--badge--label {
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.--badge--content {
+  text-align: center;
+  margin: 5px;
+  background-color: var(--gray-400);
+  padding: 4px;
+  border-radius: 999px;
+  font-weight: bold;
+  text-align: center;
+  color: var(--gray-200);
+}
+
+.--badge--complete {
+  color: var(--blue);
+}
+
+.--badge--created {
+  color: var(--purple);
+}

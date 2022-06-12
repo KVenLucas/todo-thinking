@@ -1,0 +1,17 @@
+.--container--wrapper {
+  min-height: 200px;
+  max-height: 200px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  justify-self: center;
+  align-items: center;
+  background-color: var(--gray-700);
+}
+
+.--container--logo {
+  margin-top: 70px;
+  display: flex;
+  align-self: center;
+}

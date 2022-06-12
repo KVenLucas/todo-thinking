@@ -1,0 +1,38 @@
+.--btn {
+  display: flex;
+  flex: 2;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--blue-dark);
+  color: var(--gray-100);
+  border: 0;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 140%;
+  text-transform: capitalize;
+  border-radius: 8px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  cursor: pointer;
+}
+
+.--btn:hover {
+  background-color: var(--blue);
+  transition: 0.2s ease;
+}
+
+.--btn > span {
+  display: inline-block;
+  margin: 0 6px 0 6px;
+}
+
+.--btn--danger > svg:hover > path {
+  fill: var(--danger);
+}
+
+.--btn--danger > svg:hover {
+  background-color: var(--gray-400);
+  border-radius: 4px;
+  transition: 0.2s ease;
+  transform: scale(1.1);
+  cursor: pointer;
+}

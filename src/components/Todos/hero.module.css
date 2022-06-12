@@ -1,0 +1,16 @@
+.--section--hero {
+  padding-top: 54px;
+  max-width: 736px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  display: inline-block;
+}
+
+.--section--call--action {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  max-width: 736px;
+  width: 100%;
+}
