@@ -9,17 +9,10 @@ function Timeline() {
 
   return (
     <div className={classnames['--timeline--container']}>
-      {state.loading ? (
+      {state.todos.length == 0 ? (
         <Loader>
           <LoaderContent
-            message={'Aguarde, buscando seus todos :)'}
-            tip={'Crie tarefas e organize seus itens a fazer...'}
-          />
-        </Loader>
-      ) : state.error ? (
-        <Loader>
-          <LoaderContent
-            message={'Nos desculpe, aconteceu um erro! :('}
+            message={'Você ainda não tem tarefas cadastradas'}
             tip={
               'Parece que temos que criar um todo para resolver esse problema'
             }
